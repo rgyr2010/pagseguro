@@ -2,8 +2,8 @@
 
 
 /*
-$email = 'rgyr2010@hotmail.com';
-$token = '97820290-7bfc-4f6b-9c7f-b698fcbf7167a2f4908840b8828959f5cf8af6b76f52767f-6b31-4e3d-9d49-d63518c2c4a7';
+$email = '';
+$token = '';
 */
 ?>
 <?php
@@ -14,8 +14,8 @@ $token = '97820290-7bfc-4f6b-9c7f-b698fcbf7167a2f4908840b8828959f5cf8af6b76f5276
 Caso utilizar o formato acima remova todo código abaixo até instrução $data = http_build_query($data);
 */
 $url = 'https://ws.pagseguro.uol.com.br/v2/checkout';
-$data['email'] = 'rgyr2010@hotmail.com';
-$data['token'] = '97820290-7bfc-4f6b-9c7f-b698fcbf7167a2f4908840b8828959f5cf8af6b76f52767f-6b31-4e3d-9d49-d63518c2c4a7';
+$data['email'] = '';
+$data['token'] = '';
 if(isset($_POST['comprar'])){
 
 
